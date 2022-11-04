@@ -1,0 +1,25 @@
+.rowGames {
+    padding: 10px;
+    border-bottom: 1px solid #9dacbc;
+}
+
+.imgGames{
+    width: 300px;
+    height: 160px;
+    cursor: pointer;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.9);
+    /* transition: box-shadow 0.5s; */
+}
+
+.imgGames:hover{
+    width: 350px;
+    height: 160px;
+    box-shadow: 5px 10px #888888;
+    transform: translateX(10px) scale(1.2);
+}
+
+.imgGame{
+    width: 300px;
+    height: 160px;
+}
